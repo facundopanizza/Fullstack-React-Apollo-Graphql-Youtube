@@ -1,0 +1,15 @@
+dep:
+- apollo-server-express
+- express
+- graphql
+- pg
+- reflect-metadata
+- type-graphql
+- typeorm
+
+dev:
+- @types/node
+- @types/express
+- nodemon
+- ts-node
+- typescript

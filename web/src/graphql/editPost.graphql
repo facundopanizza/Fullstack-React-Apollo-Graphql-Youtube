@@ -1,0 +1,15 @@
+mutation EditPost($id: Int!, $title: String!, $description: String!) {
+  updatePost(id: $id, title: $title, description: $description) {
+    post {
+      id
+      title
+      description
+      createdAt
+      updatedAt
+    }
+    errors {
+      field
+      message
+    }
+  }
+}

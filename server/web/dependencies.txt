@@ -1,0 +1,8 @@
+dep:
+ - react-route-dom
+ - tailwindcss
+ - graphql
+ - @apollo-client
+
+dev:
+ - @graphql-codegen/cli
